@@ -52,9 +52,9 @@ provider "google" {
 
 Parameter Description
 
-credentials -> Path to the Google Cloud service account JSON
-project -> Google Cloud project ID
-region -> Default region for resources
+- credentials -> Path to the Google Cloud service account JSON
+- project -> Google Cloud project ID
+- region -> Default region for resources
 
 ---
 
@@ -73,9 +73,9 @@ resource "google_storage_bucket" "demo-bucket" {
 
 Parameter Description
 
-name -> Globally unique bucket name
-location -> Storage location
-force_destroy -> Allows bucket deletion even if it contains objects
+- name -> Globally unique bucket name
+- location -> Storage location
+- force_destroy -> Allows bucket deletion even if it contains objects
 
 ---
 
@@ -110,8 +110,8 @@ resource "google_bigquery_dataset" "demo_dataset" {
 
 Parameter Description
 
-dataset_id -> Name of the BigQuery dataset
-location -> Dataset location
+- dataset_id -> Name of the BigQuery dataset
+- location -> Dataset location
 
 ---
 
